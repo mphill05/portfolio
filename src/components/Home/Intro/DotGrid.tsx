@@ -1,4 +1,4 @@
-import styles from './dotgrid.module.scss';
+import styles from './Dotgrid.module.scss';
 import anime from 'animejs';
 
 export const DotGrid = () => {

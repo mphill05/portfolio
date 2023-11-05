@@ -1,7 +1,7 @@
 import { MyLinks } from '@/components/Nav/components/MyLinks';
 import { Reveal } from '@/components/utils/Reveal';
 import { SectionHeader } from '@/components/utils/SectionHeader';
-import styles from './about.module.scss';
+import styles from './About.module.scss';
 import { Stats } from './Stats';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
