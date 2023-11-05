@@ -3,7 +3,7 @@
 import React from 'react';
 import { SideBar } from '../Nav/SideBar';
 import { Hero } from './Intro/Intro';
-import styles from './page.module.scss';
+import styles from './Page.module.scss';
 import { Nav } from '../Nav/Nav';
 import { About } from './About/About';
 import { Projects } from './Projects/Projects';
