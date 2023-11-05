@@ -1,9 +1,7 @@
-// import { StandardButton } from '@/components/Buttons/StandardButton';
 import { Reveal } from '@/components/utils/Reveal';
-import { DotGrid } from './DotGrid';
 import styles from './Intro.module.scss';
-import { Typing, TextCursor } from './TypingAnimation';
 import { StyledButton } from '@/components/Buttons/StyledButton';
+import { DotGrid } from './DotGrid';
 
 export const Hero = () => {
   return (
@@ -15,23 +13,20 @@ export const Hero = () => {
           </h1>
         </Reveal>
         <Reveal>
-          <Typing>
+          <div className={styles.typing}>
             <h2 className={styles.subTitle}>
-              I&apos;m a{' '}
-              <span>
-                Software Developer
-                <TextCursor />
-              </span>
+              <span>Software Developer</span>
             </h2>
-          </Typing>
+          </div>
         </Reveal>
         <Reveal>
-          <p className={styles.aboutCopy}>
-            Who&apos;s self taught with a passion for building cool stuff.
-            stuff.
+          <span>
+            <p className={styles.aboutCopy}>
+              I&apos;m self taught with a passion for building cool stuff.
+            </p>
+            <p>Let&apos;s connect!</p>
             <br />
-            Let&apos;s connect!
-          </p>
+          </span>
         </Reveal>
         <Reveal>
           <StyledButton
