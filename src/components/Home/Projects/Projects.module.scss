@@ -16,6 +16,7 @@
   position: relative;
   border-radius: 0.8rem;
   overflow: hidden;
+  transition: transform 0.25s ease;
 
   img {
     width: 85%;
@@ -27,6 +28,10 @@
     transition: 0.25s all;
 
     border-radius: 0.4rem;
+
+    &:hover {
+      transform: scale(1.05) rotate(2deg);
+    }
   }
 }
 

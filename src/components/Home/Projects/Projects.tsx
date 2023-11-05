@@ -19,7 +19,7 @@ export const Projects = () => {
 const projects = [
   {
     title: 'Music App',
-    imgSrc: 'project-imgs/musicapp.png',
+    imgSrc: '/project-imgs/musicapp.png',
     code: 'https://github.com/mphill05/music-app',
     projectLink: '',
     tech: [
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: 'Merchbox',
-    imgSrc: 'project-imgs/merchbox.png',
+    imgSrc: '/project-imgs/merchbox.png',
     code: 'https://github.com/mphill05/merchbox',
     projectLink: 'https://merchboxapp.vercel.app/',
     tech: ['Next JS', 'Sass', 'TypeScript', 'Framer Motion', 'Jira'],
@@ -84,7 +84,7 @@ const projects = [
   },
   {
     title: 'Phillstack',
-    imgSrc: 'project-imgs/psSiteImg.webp',
+    imgSrc: '/project-imgs/psSiteImg.webp',
     code: 'https://github.com/Phillstack/phillstack-react',
     projectLink: 'https://phillstack.com/',
     tech: [
@@ -124,7 +124,7 @@ const projects = [
   },
   {
     title: 'Boombox Cartel',
-    imgSrc: 'project-imgs/bmbxCtrlSiteImg.webp',
+    imgSrc: '/project-imgs/bmbxCtrlSiteImg.webp',
     code: '',
     projectLink: 'http://boomboxcartel.com',
     tech: ['Angular', 'Sass', 'Bootstrap', 'HTML', 'CSS'],
@@ -161,7 +161,7 @@ const projects = [
   },
   {
     title: 'Shop J&W',
-    imgSrc: 'project-imgs/shopJWSiteImg.webp',
+    imgSrc: '/project-imgs/shopJWSiteImg.webp',
     code: '',
     projectLink: 'https://shopjandw.com',
     tech: ['Big Commerce', 'Wordpress'],

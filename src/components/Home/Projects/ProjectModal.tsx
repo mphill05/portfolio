@@ -50,9 +50,11 @@ export const ProjectModal = ({
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}
       >
-        <img
+        <Image
           className={styles.modalImage}
           src={imgSrc}
+          width={850}
+          height={450}
           alt={`An image of the ${title} project.`}
         />
         <div className={styles.modalContent}>

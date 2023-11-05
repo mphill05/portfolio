@@ -63,13 +63,12 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}
         >
-          <img
+          <Image
             src={imgSrc}
             alt={`An image of the ${title} project.`}
-            style={{
-              width: hovered ? '90%' : '85%',
-              rotate: hovered ? '2deg' : '0deg',
-            }}
+            width={hovered ? 900 : 850}
+            height={250}
+            className={hovered ? 'hovered' : ''}
           />
         </div>
         <div className={styles.projectCopy}>
