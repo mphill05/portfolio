@@ -18,6 +18,71 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: 'Music App',
+    imgSrc: 'project-imgs/musicapp.png',
+    code: 'https://github.com/mphill05/music-app',
+    projectLink: '',
+    tech: [
+      'Next JS',
+      'Sass',
+      'TypeScript',
+      'Framer Motion',
+      'Node',
+      'Express',
+      'CircleCi',
+      'Next Auth',
+      'MongoDB',
+      'Jira',
+    ],
+    description: 'A landing page for my music.',
+    modalContent: (
+      <>
+        <p>
+          Challenge: I needed a website that would allow me to have a single
+          location for previous music releases and upcoming news and what not
+          pertaining to my music. This website will allow fans to see what
+          I&apos;m up to, as well as gain access to their own accounts for
+          previous orders.
+        </p>
+        <p>
+          Solution: I created a NextJS application that uses framer motion for
+          simple designs and animations, and am using NextAuth to handle user
+          authentication to see previous orders and purchased digital assets.
+        </p>
+        <p>Outcome: This application is a work in progress for now.</p>
+      </>
+    ),
+  },
+  {
+    title: 'Merchbox',
+    imgSrc: 'project-imgs/merchbox.png',
+    code: 'https://github.com/mphill05/merchbox',
+    projectLink: 'https://merchboxapp.vercel.app/',
+    tech: ['Next JS', 'Sass', 'TypeScript', 'Framer Motion', 'Jira'],
+    description: 'A landing page for Merchbox clients to obtain store info.',
+    modalContent: (
+      <>
+        <p>
+          Challenge: This client had an issue with their existing wix template
+          and found it difficult to adjust parameters how they wanted, they had
+          clunky animations and issues with the site being responsive.
+        </p>
+        <p>
+          Solution: I created a lightweight Next 13 application utilizing framer
+          motion for the animations and SASS to handle the reponsive design. The
+          email form is handled with Nodemailer creating a lightweight and
+          smooth user experience.
+        </p>
+        <p>
+          Outcome: The site loads significantly faster than the previous wix
+          page, with a smoother design that is responsive. The page has a locked
+          in design for clients and we improved SEO utilizing proper meta tags
+          and cross site referencing.
+        </p>
+      </>
+    ),
+  },
+  {
     title: 'Phillstack',
     imgSrc: 'project-imgs/psSiteImg.webp',
     code: 'https://github.com/Phillstack/phillstack-react',

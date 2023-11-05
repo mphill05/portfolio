@@ -23,7 +23,17 @@ export const SideBar = () => {
     const observer = new IntersectionObserver(callback, options);
 
     sections.forEach((section) => observer.observe(section));
+
+    return () => observer.disconnect();
   }, []);
+
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      setSelected(sectionId);
+    }
+  };
 
   return (
     <motion.nav
@@ -39,9 +49,8 @@ export const SideBar = () => {
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        href="#about"
         onClick={() => {
-          setSelected('about');
+          scrollToSection('about');
         }}
         className={selected === 'about' ? styles.selected : ''}
       >
@@ -51,8 +60,7 @@ export const SideBar = () => {
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        href="#projects"
-        onClick={() => setSelected('projects')}
+        onClick={() => scrollToSection('projects')}
         className={selected === 'projects' ? styles.selected : ''}
       >
         Projects
@@ -61,8 +69,7 @@ export const SideBar = () => {
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
-        href="#experience"
-        onClick={() => setSelected('experience')}
+        onClick={() => scrollToSection('experience')}
         className={selected === 'experience' ? styles.selected : ''}
       >
         Exp.
@@ -71,8 +78,7 @@ export const SideBar = () => {
         initial={{ x: -70 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
-        href="#contact"
-        onClick={() => setSelected('contact')}
+        onClick={() => scrollToSection('contact')}
         className={selected === 'contact' ? styles.selected : ''}
       >
         Contact

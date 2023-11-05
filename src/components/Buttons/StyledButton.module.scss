@@ -1,46 +1,60 @@
 .styledButton {
-  outline: none;
+  padding-top: 10px;
+  position: relative;
+  padding: 10px 30px;
+  color: var(--text-md);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
+  background: none;
   border: none;
   cursor: pointer;
 
-  padding: 1.2rem 2.4rem;
+  &:hover {
+    transition-delay: 0.5s;
+    background: var(--brand);
+    color: #111;
+    box-shadow: 0 0 50px var(--brand);
+  }
 
-  border: 1px solid var(--brand);
-  background: transparent;
-  color: var(--brand);
-  font-size: var(--text-sm);
-  border-radius: 4px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid var(--brand);
+    border-left: 2px solid var(--brand);
+    transition: 0.5s;
+    transition-delay: 0.5s;
+  }
 
-  position: relative;
-  z-index: 20;
+  &:hover::before {
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+  }
 
-  overflow: hidden;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid var(--brand);
+    border-right: 2px solid var(--brand);
+    transition: 0.5s;
+    transition-delay: 0.5s;
+  }
 
-  transition: 0.2s color;
-}
-
-.styledButton::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  background: var(--brand);
-
-  height: 100%;
-  width: 100%;
-
-  left: -100%;
-  top: -100%;
-
-  transition:
-    0.2s left,
-    0.2s top;
-}
-
-.styledButton:hover {
-  color: var(--background-dark);
-}
-
-.styledButton:hover::before {
-  left: 0;
-  top: 0;
+  &:hover::after {
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+  }
 }
