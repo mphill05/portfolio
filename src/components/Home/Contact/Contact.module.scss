@@ -1,8 +1,6 @@
 .contactWrapper {
   max-width: 700px;
   margin: auto;
-
-  border-radius: 1.2rem;
 }
 
 .contactTitle {
@@ -13,10 +11,6 @@
 
   span {
     color: var(--brand);
-  }
-
-  @media (max-width: 768px) {
-    font-size: var(--text-xl);
   }
 }
 
@@ -39,16 +33,32 @@
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
-
   width: fit-content;
-
   font-size: var(--text-md);
-
   margin: auto;
-
   transition: 0.25s color;
 }
 
 .contactEmail:hover {
   color: var(--brand);
+}
+
+@media (max-width: 768px) {
+  .contactWrapper {
+    width: 90vw;
+    margin: 50px auto;
+  }
+
+  .contactTitle {
+    font-size: var(--text-lg);
+  }
+
+  .contactCopy {
+    font-size: var(--text-sm);
+  }
+
+  .contactEmail {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
 }

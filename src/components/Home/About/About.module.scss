@@ -2,10 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 300px;
   gap: 2.4rem;
-
-  @media (max-width: 900px) {
-    grid-template-columns: 1fr;
-  }
 }
 
 .aboutText {
@@ -39,4 +35,42 @@
   margin-right: 0.6rem;
 
   float: left;
+}
+
+@media (max-width: 768px) {
+  .sectionMarginTop {
+    scroll-margin-top: 60px;
+  }
+
+  .about {
+    width: 90vw;
+    display: block;
+    grid-template-columns: 1fr;
+    padding-left: 2rem;
+  }
+
+  .aboutText {
+    font-size: var(--text-sm);
+    margin-bottom: 1.6rem;
+    width: 90vw;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding-bottom: 25px;
+  }
+
+  .linksText {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: var(--text-xs);
+  }
+
+  .highlightFirstLetter:first-letter {
+    font-size: var(--text-lg);
+    padding: 0.6rem;
+  }
 }

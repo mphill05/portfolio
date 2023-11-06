@@ -9,6 +9,7 @@
   --text: rgb(253, 255, 252);
   --brand: rgb(60, 145, 230);
 
+  --text-xxs: 1.2rem;
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
   --text-md: 2.2rem;
@@ -54,15 +55,24 @@ a {
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
-  .section-wrapper {
-    padding: 7.2rem 2.4rem;
-  }
-}
-
 .chip {
   font-size: var(--text-xs);
   background: var(--background-light);
   padding: 0.2rem 0.8rem;
   border-radius: 999px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --text-xs: 1.4rem;
+    --text-sm: 1.6rem;
+    --text-md: 2rem;
+    --text-lg: 3.2rem;
+    --text-xl: 4.8rem;
+    --text-2xl: 7.2rem;
+  }
+
+  .section-wrapper {
+    padding: 1.8rem 0;
+  }
 }

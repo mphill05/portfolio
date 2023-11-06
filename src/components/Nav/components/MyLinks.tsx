@@ -1,10 +1,5 @@
-import styles from './HeadingLinks.module.scss';
-import {
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillTwitterCircle,
-  AiFillCodepenCircle,
-} from 'react-icons/ai';
+import styles from './MyLinks.module.scss';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 

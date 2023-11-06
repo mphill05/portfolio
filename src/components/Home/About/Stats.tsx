@@ -60,6 +60,9 @@ const learning = [
   {
     tech: 'PostgreSQL',
   },
+  {
+    tech: 'Figma',
+  },
 ];
 
 export const Stats = () => {

@@ -38,6 +38,20 @@ export const ProjectModal = ({
     }
   }, [isOpen]);
 
+  useEffect(() => {
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('keydown', handleEscape);
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+    };
+  }, [setIsOpen]);
+
   const content = (
     <div className={styles.modal} onClick={() => setIsOpen(false)}>
       <button className={styles.closeModalBtn}>

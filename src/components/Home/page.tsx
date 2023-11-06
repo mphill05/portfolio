@@ -2,13 +2,14 @@
 
 import React from 'react';
 import { SideBar } from '../Nav/SideBar';
-import { Hero } from './Intro/Intro';
-import styles from './page.module.scss';
+import { Intro } from './Intro/Intro';
 import { Nav } from '../Nav/Nav';
 import { About } from './About/About';
 import { Projects } from './Projects/Projects';
 import { Experience } from './Experience/Experience';
 import { Contact } from './Contact/Contact';
+import { BottomBar } from '../Nav/BottomBar';
+import styles from './page.module.scss';
 
 export const Home = () => {
   return (
@@ -17,18 +18,13 @@ export const Home = () => {
         <SideBar />
         <main>
           <Nav />
-          <Hero />
+          <Intro />
           <About />
           <Projects />
           <Experience />
           <Contact />
-          <div
-            style={{
-              height: '200px',
-              background:
-                'linear-gradient(180deg, var(--background), var(--background-dark))',
-            }}
-          />
+          <div className={styles.pageSpace} />
+          <BottomBar />
         </main>
       </div>
     </>

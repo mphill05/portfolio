@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const Contact = () => {
   return (
-    <section className="section-wrapper" id="contact">
+    <section id="contact">
       <div className={styles.contactWrapper}>
         <Reveal width="100%">
           <h4 className={styles.contactTitle}>
