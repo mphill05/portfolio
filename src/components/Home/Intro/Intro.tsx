@@ -3,9 +3,9 @@ import styles from './Intro.module.scss';
 import { StyledButton } from '@/components/Buttons/StyledButton';
 import { DotGrid } from './DotGrid';
 
-export const Hero = () => {
+export const Intro = () => {
   return (
-    <section className={`section-wrapper ${styles.hero}`}>
+    <section className={`section-wrapper ${styles.intro}`}>
       <div className={styles.copyWrapper}>
         <Reveal>
           <h1 className={styles.title}>
@@ -24,7 +24,7 @@ export const Hero = () => {
             <p className={styles.aboutCopy}>
               I&apos;m self taught with a passion for building cool stuff.
             </p>
-            <p>Let&apos;s connect!</p>
+            <p className={styles.connect}>Let&apos;s connect!</p>
             <br />
           </span>
         </Reveal>

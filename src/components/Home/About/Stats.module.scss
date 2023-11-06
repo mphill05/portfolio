@@ -6,8 +6,8 @@
   h4 {
     display: flex;
     align-items: center;
-
     margin-bottom: 2.4rem;
+
     span {
       font-size: var(--text-md);
       font-weight: bold;
@@ -21,6 +21,19 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1.2rem;
-
   margin-bottom: 4.8rem;
+}
+
+@media (max-width: 768px) {
+  .stats {
+    width: 100vw;
+  }
+
+  .statColumn {
+    width: 90vw;
+  }
+
+  .statGrid {
+    margin-bottom: 3rem;
+  }
 }

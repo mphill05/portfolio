@@ -56,6 +56,7 @@ export const Project = ({
         initial="hidden"
         animate={controls}
         transition={{ duration: 0.75 }}
+        className={styles.projects}
       >
         <div
           onMouseEnter={() => setHovered(true)}

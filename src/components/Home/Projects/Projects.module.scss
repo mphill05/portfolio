@@ -1,14 +1,13 @@
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 3.2rem;
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
 }
 
 .projectImage {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1.6rem;
   width: 100%;
   aspect-ratio: 16 / 9;
   background: var(--background-light);
@@ -20,13 +19,12 @@
 
   img {
     width: 85%;
+    height: auto;
     position: absolute;
     bottom: 0;
     left: 50%;
     translate: -50% 20%;
-
     transition: 0.25s all;
-
     border-radius: 0.4rem;
 
     &:hover {
@@ -96,4 +94,24 @@
   color: var(--brand);
 
   margin: 0.8rem 0;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .projectImage {
+    aspect-ratio: auto;
+
+    img {
+      translate: 8% 20%;
+      position: relative;
+      left: 0;
+      transform: none;
+      bottom: 0;
+    }
+  }
 }
