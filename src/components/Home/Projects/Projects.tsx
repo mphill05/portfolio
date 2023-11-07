@@ -208,7 +208,7 @@ const projects = [
   {
     title: 'Old Portfolio',
     imgSrc: '/project-imgs/oldportfolio.png',
-    code: 'https://github.com/mphill05/portfolio2.0',
+    code: 'https://github.com/mphill05/oldportfolio',
     projectLink: 'https://mpoldportfolio.vercel.app/',
     tech: [
       'Next.js',
