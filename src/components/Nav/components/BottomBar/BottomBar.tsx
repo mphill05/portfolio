@@ -32,7 +32,12 @@ export const BottomBar = () => {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      const navHeight = 60; // Adjust this value to match the height of your nav bar
+      const position = section.offsetTop - navHeight;
+      window.scrollTo({
+        top: position,
+        behavior: 'smooth',
+      });
       setSelected(sectionId);
     }
   };
