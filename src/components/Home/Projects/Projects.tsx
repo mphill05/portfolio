@@ -23,33 +23,41 @@ const projects = [
     code: 'https://github.com/mphill05/music-app',
     projectLink: '',
     tech: [
-      'Next JS',
+      'Next.js',
       'Sass',
       'TypeScript',
       'Framer Motion',
-      'Node',
+      'Node.js',
       'Express',
-      'CircleCi',
-      'Next Auth',
+      'CircleCI',
+      'NextAuth',
       'MongoDB',
       'Jira',
     ],
-    description: 'A landing page for my music.',
+    description: 'Full Stack e-Commerce app built with Next.js.',
     modalContent: (
       <>
         <p>
-          Challenge: I needed a website that would allow me to have a single
-          location for previous music releases and upcoming news and what not
-          pertaining to my music. This website will allow fans to see what
-          I&apos;m up to, as well as gain access to their own accounts for
-          previous orders.
+          <strong className={styles.cso}>Challenge</strong>: As an artist and
+          developer, I sought to centralize my digital presence, creating a hub
+          for my music portfolio, tour updates, and merchandise. The goal was to
+          craft a seamless, engaging experience for fans and a functional
+          platform for user engagement and e-commerce.
         </p>
         <p>
-          Solution: I created a NextJS application that uses framer motion for
-          simple designs and animations, and am using NextAuth to handle user
-          authentication to see previous orders and purchased digital assets.
+          <strong className={styles.cso}>Solution</strong>: Leveraging the power
+          of Next.js, I engineered a robust web application that not only
+          showcases my music but also enhances user interaction through Framer
+          Motion&apos;s sleek animations. I integrated NextAuth for secure user
+          authentication, enabling fans to access their order history and
+          digital downloads with ease.
         </p>
-        <p>Outcome: This application is a work in progress for now.</p>
+        <p>
+          <strong className={styles.cso}>Outcome</strong>: Currently, the
+          application is evolving. It stands as a testament to my dual expertise
+          in software engineering and creative design, reflecting my commitment
+          to delivering both aesthetic appeal and technical functionality.
+        </p>
       </>
     ),
   },
@@ -58,26 +66,30 @@ const projects = [
     imgSrc: '/project-imgs/merchbox.png',
     code: 'https://github.com/mphill05/merchbox',
     projectLink: 'https://merchboxapp.vercel.app/',
-    tech: ['Next JS', 'Sass', 'TypeScript', 'Framer Motion', 'Jira'],
-    description: 'A landing page for Merchbox clients to obtain store info.',
+    tech: ['Next.js', 'Sass', 'TypeScript', 'Framer Motion', 'Jira'],
+    description: 'Merchbox: Next.js landing page.',
     modalContent: (
       <>
         <p>
-          Challenge: This client had an issue with their existing wix template
-          and found it difficult to adjust parameters how they wanted, they had
-          clunky animations and issues with the site being responsive.
+          <strong className={styles.cso}>Challenge</strong>: My client faced
+          limitations with their existing Wix-based storefront, struggling with
+          inflexible design options, sluggish animations, and poor
+          responsiveness across devices.
         </p>
         <p>
-          Solution: I created a lightweight Next 13 application utilizing framer
-          motion for the animations and SASS to handle the reponsive design. The
-          email form is handled with Nodemailer creating a lightweight and
-          smooth user experience.
+          <strong className={styles.cso}>Solution</strong>: I engineered a
+          custom Next.js application, optimized for performance and flexibility.
+          By implementing Framer Motion, we introduced fluid, eye-catching
+          animations, while Sass was utilized for responsive styling. Nodemailer
+          integration streamlined the email communication process, enhancing the
+          overall user experience.
         </p>
         <p>
-          Outcome: The site loads significantly faster than the previous wix
-          page, with a smoother design that is responsive. The page has a locked
-          in design for clients and we improved SEO utilizing proper meta tags
-          and cross site referencing.
+          <strong className={styles.cso}>Outcome</strong>: The new Merchbox site
+          boasts a remarkable performance leap, with load times slashed and a
+          responsive design that adapts seamlessly to all devices. I&apos;ve
+          locked in a client-pleasing aesthetic, boosted SEO with strategic meta
+          tags, and enhanced visibility through cross-site referencing.
         </p>
       </>
     ),
@@ -92,32 +104,36 @@ const projects = [
       'Sass',
       'Bootstrap',
       'JavaScript',
-      'Node',
+      'Node.js',
       'Express',
       'AWS',
-      'CircleCi',
+      'CircleCI',
       'Jira',
     ],
-    description:
-      'A simple ReactJS application for freelance clients to showcase previous work and help clients find us.',
+    description: 'Phillstack: Simplified Client Solutions',
     modalContent: (
       <>
         <p>
-          Challenge: A site to operate as a landing page for freelance clients
-          and to showcase work that we&apos;ve previously worked on. This site
-          needed to be simple and easy for nontechnical people to be able to see
-          our work, what we&apos;re about and get in contact with us.
+          <strong className={styles.cso}>Challenge</strong>: Our goal was to
+          create an inviting digital landing space for our freelance services,
+          one that would not only highlight our past projects but also be
+          accessible to non-technical visitors, ensuring they understand our
+          services and can easily reach out to us.
         </p>
         <p>
-          Solution: A simple, straightforward design making it easy for anyone
-          to find us and what we do. The page is straight forward and minimal.
+          <strong className={styles.cso}>Solution</strong>: We crafted a
+          straightforward and intuitive design, prioritizing ease of navigation
+          and clarity of information. The interface is clean and minimalistic,
+          removing any barriers between our work and potential clients.
         </p>
         <p>
-          Outcome: The site contains minimal design tricks and maximum
-          userability and responsiveness. We employed CircleCi to consistently
-          test the application, and built the site utilizing an agile
-          methodology. The site contains a simple contact form and is deployed
-          with amazon web services.
+          <strong className={styles.cso}>Outcome</strong>: The resulting site is
+          the epitome of user-friendly design, boasting high responsiveness and
+          usability. With CircleCI integration, we ensure continuous testing for
+          seamless performance. The development process followed agile
+          principles for efficiency and adaptability. Deployment via Amazon Web
+          Services guarantees reliability and scalability, while a simple
+          contact form facilitates effortless communication.
         </p>
       </>
     ),
@@ -128,33 +144,33 @@ const projects = [
     code: '',
     projectLink: 'http://boomboxcartel.com',
     tech: ['Angular', 'Sass', 'Bootstrap', 'HTML', 'CSS'],
-    description:
-      'A center location for Boombox Cartel fans to stay in touch with the artist and get up to date news on new music, tour dates, and video and music releases.',
+    description: 'The official website for Boombox Cartel',
     modalContent: (
       <>
         <p>
-          Challenge: The original site was broken and extremely dated, I was
-          approached to help improve their web presence and give the artist a
-          homebase to work from. We needed something that was new, creative,
-          showcased the artists talents, and felt engaging to fans without going
-          overboard. I needed to be able to show images and videos without
-          costing the user too much, and use custom graphics with abnormal
-          placement to achieve the vision the artists and his designer
-          eventually landed on.
+          <strong className={styles.cso}>Challenge</strong>: Tasked with
+          revitalizing Boombox Cartel&apos;s online presence, the objective was
+          to create a fresh, engaging web experience that resonates with fans.
+          The site needed to showcase the artist&apos;s creativity and talent
+          through a modern, multimedia-rich interface without compromising on
+          performance.
         </p>
         <p>
-          Solution: A complete site redesign from the ground up working closely
-          with the artist and his graphic designer. This is a page achieves the
-          visions they set without being too taxing on the end user. Everything
-          is made with custom icons and fonts, a custom sliding drawer in the
-          bottom for socials and subscribe via email, and gives users what they
-          need in regards to tour dates and the store.
+          <strong className={styles.cso}>Solution</strong>: Collaborating
+          closely with the artist and their graphic designer, we orchestrated a
+          full-scale site redesign. The new platform is a testament to their
+          vision, featuring custom graphics with unique placements, custom
+          icons, and fonts. A bespoke sliding drawer for social media links and
+          email subscriptions enhances engagement, while streamlined access to
+          tour dates and the store caters to fan needs.
         </p>
         <p>
-          Outcome: The website went from being completely stagnant, to having
-          over 10,000 users immediately. I took their vision from from concept
-          to full on web application and deployed the site using Angular, styled
-          with Bootstrap and Sass.
+          <strong className={styles.cso}>Outcome</strong>: The reinvented
+          website transformed from dormant to dynamic, attracting over 10,000
+          users immediately post-launch. By translating the artist&apos;s
+          conceptual art into a high-performance web application using Angular,
+          and crafting a stylish interface with Bootstrap and Sass, the site now
+          stands as a vibrant hub for fan interaction and artist promotion.
         </p>
       </>
     ),
@@ -165,23 +181,26 @@ const projects = [
     code: '',
     projectLink: 'https://shopjandw.com',
     tech: ['Big Commerce', 'Wordpress'],
-    description:
-      'An e-commerce app that I transfered from Wordpress to Bigcommerce for a client.',
+    description: 'WordPress to BigCommerce Migration',
     modalContent: (
       <>
         <p>
-          Challenge: The client needed to upgrade their existing WordPress site
-          that was broken due to plugins not being updated. The client was
-          hosting their products with Bigcommerce and transfering their data to
-          WordPress.
+          <strong className={styles.cso}>Challenge</strong>: Our client faced a
+          malfunctioning WordPress site, plagued by outdated plugins and a
+          disjointed product hosting setup with BigCommerce. The task was to
+          streamline their online presence and ensure seamless data integration.
         </p>
         <p>
-          Solution: The site was migrated over from WordPress to Bigcommerce for
-          the front-end and setup with a custom theme.
+          <strong className={styles.cso}>Solution</strong>: We executed a
+          strategic migration, transitioning the entire storefront from
+          WordPress to BigCommerce. This move was complemented by the
+          implementation of a custom theme tailored to the client&apos;s brand,
+          enhancing the front-end experience.
         </p>
         <p>
-          Outcome: The sites redesign has improved usability and the migration
-          to Bigcommerce has improved stability by over 50%.
+          <strong className={styles.cso}>Outcome</strong>: The website&apos;s
+          redesign and platform migration have markedly enhanced user experience
+          and site stability, with a 50% improvement in performance metrics.
         </p>
       </>
     ),

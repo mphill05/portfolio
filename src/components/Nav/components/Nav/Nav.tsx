@@ -1,6 +1,6 @@
 import styles from './Nav.module.scss';
-import { MyLinks } from './components/MyLinks';
-import { StyledButton } from '../Buttons/StyledButton';
+import { MyLinks } from '../MyLinks/MyLinks';
+import { StyledButton } from '../../../Buttons/StyledButton';
 import { motion } from 'framer-motion';
 
 export const Nav = () => {

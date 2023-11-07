@@ -7,7 +7,7 @@ const stats = [
     tech: 'React',
   },
   {
-    tech: 'Next JS',
+    tech: 'Next.js',
   },
   {
     tech: 'TypeScript',
@@ -16,7 +16,7 @@ const stats = [
     tech: 'JavaScript',
   },
   {
-    tech: 'NodeJS',
+    tech: 'Node.js',
   },
   {
     tech: 'Express',

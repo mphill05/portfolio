@@ -19,7 +19,7 @@ const experience = [
     time: 'March 2022 – June 2023',
     location: 'Remote',
     description:
-      'I specialized in crafting high-performannt, scalable, and testable application for the logistics industry. I ensured robustness by conducting thorough unit and integration tests, and collaborated with UI/UX and product to achieve frequent tight deadlines, all while mainting stringent code quality through dilligent code reviews.',
+      'As a Software Engineer at Mastery, I honed my skills in building high-performance, scalable applications tailored for the logistics industry. My role involved close collaboration with UI/UX and product teams to meet tight deadlines, ensuring code quality through meticulous reviews and testing with tools like Jest and Cypress.',
     tech: [
       'React',
       'TypeScript',
@@ -37,8 +37,16 @@ const experience = [
     time: 'August 2020 – May 2022',
     location: 'Remote',
     description:
-      'I developed cutting-edge web applications from scratch with React, Angular and/or TypeScript, significantly enhancing user experience and functionality. While wearing many hats as a developer, I also spent a lot of time working with various clients directly and marketing our services.',
-    tech: ['React', 'Angular', 'TypeScript', 'Git', 'NodeJS', 'Express', 'AWS'],
+      "During my tenure as a Software Engineer at PhillStack, I crafted cutting-edge web applications from the ground up, enhancing user experiences with React, Angular, and TypeScript. My direct engagement with clients and active role in marketing our services were pivotal in driving the company's growth and reducing time-to-market.",
+    tech: [
+      'React',
+      'Angular',
+      'TypeScript',
+      'Git',
+      'Node.js',
+      'Express',
+      'AWS',
+    ],
   },
   {
     title: 'Boombox Cartel',
@@ -46,7 +54,7 @@ const experience = [
     time: 'June 2017 – August 2020',
     location: 'Remote',
     description:
-      'I handled the strategic overhaul of the website and worked with the team to create an entirely new web app design from scratch. Not only did I improve site retention and user engagement, but the redesign helped increase fan following and engagement across all social media platforms.',
+      "I led the strategic website overhaul at Boombox Cartel, working closely with the team to reimagine the web app design. This redesign significantly improved site retention and user engagement, contributing to a marked increase in the artist's fan following and social media presence.",
     tech: ['Angular', 'TypeScript', 'SASS', 'RESTful Web Services'],
   },
 ];

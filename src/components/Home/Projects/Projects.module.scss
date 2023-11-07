@@ -96,6 +96,10 @@
   margin: 0.8rem 0;
 }
 
+.cso {
+  color: var(--brand);
+}
+
 @media (max-width: 768px) {
   .projects {
     grid-template-columns: 1fr;
