@@ -205,4 +205,42 @@ const projects = [
       </>
     ),
   },
+  {
+    title: 'Old Portfolio',
+    imgSrc: '/project-imgs/oldportfolio.png',
+    code: 'https://github.com/mphill05/portfolio2.0',
+    projectLink: 'https://mpoldportfolio.vercel.app/',
+    tech: [
+      'Next.js',
+      'Tailwindcss',
+      'JavaScript',
+      'GraphQL',
+      'GraphCMS',
+      'Lottie',
+      'Nodemailer',
+    ],
+    description: 'My original portfolio and Blog',
+    modalContent: (
+      <>
+        <p>
+          <strong className={styles.cso}>Challenge</strong>: The goal was to
+          create a personal portfolio that not only displayed my software
+          development projects but also included a blog to share my insights and
+          experiences in the tech world.
+        </p>
+        <p>
+          <strong className={styles.cso}>Solution</strong>: Embracing the power
+          of Next.js for the first time, I integrated GraphCMS, a headless CMS,
+          to manage blog content efficiently. The data is fetched using GraphQL,
+          ensuring a seamless flow of information.
+        </p>
+        <p>
+          <strong className={styles.cso}>Outcome</strong>: The result is a fully
+          responsive web application that provides a quick, lightweight, and
+          user-friendly experience. It serves as a comprehensive showcase of my
+          work and a platform for my written thoughts in the blog.
+        </p>
+      </>
+    ),
+  },
 ];
