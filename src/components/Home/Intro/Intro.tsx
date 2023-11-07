@@ -9,20 +9,20 @@ export const Intro = () => {
       <div className={styles.copyWrapper}>
         <Reveal>
           <h1 className={styles.title}>
-            Hey, I&apos;m Mark<span>.</span>
+            Hello, I&apos;m Mark<span>.</span>
           </h1>
         </Reveal>
         <Reveal>
           <div className={styles.typing}>
             <h2 className={styles.subTitle}>
-              <span>Software Developer</span>
+              <span>Software Engineer</span>
             </h2>
           </div>
         </Reveal>
         <Reveal>
           <span>
             <p className={styles.aboutCopy}>
-              I&apos;m self taught with a passion for building cool stuff.
+              Passionate developer and problem solver.
             </p>
             <p className={styles.connect}>Let&apos;s connect!</p>
             <br />

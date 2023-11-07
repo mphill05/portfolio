@@ -1,14 +1,14 @@
 'use client';
 
 import React from 'react';
-import { SideBar } from '../Nav/SideBar';
+import { SideBar } from '../Nav/components/SideBar/SideBar';
 import { Intro } from './Intro/Intro';
-import { Nav } from '../Nav/Nav';
+import { Nav } from '../Nav/components/Nav/Nav';
 import { About } from './About/About';
 import { Projects } from './Projects/Projects';
 import { Experience } from './Experience/Experience';
 import { Contact } from './Contact/Contact';
-import { BottomBar } from '../Nav/BottomBar';
+import { BottomBar } from '../Nav/components/BottomBar/BottomBar';
 import styles from './page.module.scss';
 
 export const Home = () => {

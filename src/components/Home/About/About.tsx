@@ -1,4 +1,4 @@
-import { MyLinks } from '@/components/Nav/components/MyLinks';
+import { MyLinks } from '@/components/Nav/components/MyLinks/MyLinks';
 import { Reveal } from '@/components/utils/Reveal';
 import { SectionHeader } from '@/components/utils/SectionHeader';
 import styles from './About.module.scss';
@@ -13,33 +13,34 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hey! I&apos;m Mark, if you haven&apos;t already gathered that by
-              now. I&apos;m a music producer turned software engineer from
-              Minneapolis, Minnesota. I specialize in frontend, primarily using
-              React, NextJS and TypeScript, but love building with whatever
-              tools are right for the job.
+              Hello! I&apos;m Mark, a Minneapolis-based software engineer with a
+              rhythm for coding and a melody for innovation. Transitioning from
+              music production to tech, I craft dynamic user experiences with
+              React, Next.js, and TypeScript, always selecting the perfect tool
+              for the task at hand.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I currently have been taking on freelance clients while I sort out
-              where to go for my next role. Currently working towards obtaining
-              certifications with AWS.
+              As a freelance developer, I&apos;m honing my skills and am on the
+              path to obtaining the AWS Developer Associate certification, eager
+              to architect scalable solutions in the cloud.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              Outside of work, I love to spend time creating music or
-              snowboarding. I&apos;m almost always trying to filming
-              snowboarding or writing music for a new project.
+              When I&apos;m not coding, you&apos;ll find me on the slopes
+              carving fresh snow or in the studio laying down tracks for my next
+              music venture.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I&apos;m currently looking for new positions where I can expand on
-              my love for next tech and expand on my skills. If you think
-              you&apos;ve got an opening that I might like, let&apos;s connect
-              🔗
+              I&apos;m on the lookout for new opportunities that will challenge
+              me and broaden my horizons in cutting-edge technology. If
+              you&apos;re in need of a developer with a creative edge,
+              let&apos;s tune into the possibilities together. Let&apos;s
+              connect 🔗
             </p>
           </Reveal>
           <Reveal>

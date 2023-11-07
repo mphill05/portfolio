@@ -9,12 +9,14 @@ export const Contact = () => {
       <div className={styles.contactWrapper}>
         <Reveal width="100%">
           <h4 className={styles.contactTitle}>
-            Contact<span>.</span>
+            Get in Touch<span>.</span>
           </h4>
         </Reveal>
         <Reveal width="100%">
           <p className={styles.contactCopy}>
-            Shoot me an email if you want to connect! You can also find me on{' '}
+            I&apos;m always open to discussing new opportunities or potential
+            collaborations. <br />
+            Feel free to reach out via email or connect with me on{' '}
             <Link
               href="https://www.linkedin.com/in/mphill05"
               target="_blank"
