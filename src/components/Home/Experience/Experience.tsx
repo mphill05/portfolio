@@ -32,7 +32,7 @@ const experience = [
     ],
   },
   {
-    title: 'PhtillStack',
+    title: 'PhillStack',
     position: 'Software Engineer',
     time: 'August 2020 – May 2022',
     location: 'Remote',
