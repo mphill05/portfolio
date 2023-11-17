@@ -2,6 +2,7 @@ import { Reveal } from '@/components/utils/Reveal';
 import styles from './Intro.module.scss';
 import { StyledButton } from '@/components/Buttons/StyledButton';
 import { DotGrid } from './DotGrid';
+import IntroImage from './IntroImage';
 
 export const Intro = () => {
   return (
@@ -49,8 +50,8 @@ export const Intro = () => {
             </svg>
           </StyledButton>
         </Reveal>
+        <IntroImage />
       </div>
-      <DotGrid />
     </section>
   );
 };
