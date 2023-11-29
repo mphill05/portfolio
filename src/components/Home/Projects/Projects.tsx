@@ -18,6 +18,61 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: 'Production App',
+    imgSrc: '/project-imgs/productionSite.png',
+    code: 'https://github.com/mphill05/production-app',
+    projectLink: '',
+    tech: [
+      'Next.js',
+      'TypeScript',
+      'Sass',
+      'Node.js',
+      'Express',
+      'CircleCI',
+      'AWS',
+      'Jest',
+      'Cypress',
+      'NextAuth',
+      'MongoDB',
+      'Framer Motion',
+      'Jira',
+    ],
+    description: 'Full Stack app built with Next.js.',
+    modalContent: (
+      <>
+        <p>
+          <strong className={styles.cso}>Challenge</strong>: I&apos;ve struggled
+          to find a good site to store my music production projects, but beyond
+          that something that felt like a one stop shop for music producers. I
+          wanted to create a site where I could store my projects, write notes
+          and have them populate a Trello style board to keep myself organized.
+          I feel like producers are missing a good way to connect as well with
+          message boards, groups and a feed that isn&apos;t algorithm heavy much
+          like soundcloud in the past.
+        </p>
+        <p>
+          <strong className={styles.cso}>Solution</strong>: I decided to take on
+          a project in multiple steps that would solve all of those problems.
+          There are many sites from the past that really shaped culture because
+          they revolved around community and creativity, somewhere along the way
+          that all got lost to algorithms and advertisements. I&apos;m hoping to
+          fix some of that with this site.
+        </p>
+        <p>
+          <strong className={styles.cso}>Outcome</strong>: I&apos;m currently
+          planning the application and getting very bare scaffolding in place
+          and exploring options as to what will make this as cheap as possible
+          while still being able to scale and be stable. I plan to host the
+          application on AWS and utilize Kubernetes to scale as necessary.
+          It&apos;s a big undertaking so I want to make sure I build things
+          right for the community and artists.
+          <br />
+          More updates to come!
+        </p>
+      </>
+    ),
+  },
+  {
     title: 'Music App',
     imgSrc: '/project-imgs/musicapp.png',
     code: 'https://github.com/mphill05/music-app',
@@ -31,7 +86,7 @@ const projects = [
       'Express',
       'CircleCI',
       'NextAuth',
-      'MongoDB',
+      'PostgreSQL',
       'Jira',
     ],
     description: 'Full Stack e-Commerce app built with Next.js.',
