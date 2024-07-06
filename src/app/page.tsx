@@ -12,7 +12,7 @@ export default function Home() {
           content="Mark Phillips - A passionate Software Developer."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" area-label="Favicon" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://markphillips.vercel.app/" />

@@ -82,10 +82,10 @@ export const ProjectModal = ({
               Project Links<span>.</span>
             </p>
             <div className={styles.links}>
-              <Link target="_blank" rel="nofollow" href={code}>
+              <Link target="_blank" aria-label="Source Code" href={code}>
                 <AiFillGithub /> source code
               </Link>
-              <Link target="_blank" rel="nofollow" href={projectLink}>
+              <Link target="_blank" aria-label="Site Link" href={projectLink}>
                 <AiOutlineExport /> live project
               </Link>
             </div>

@@ -20,7 +20,7 @@ export const Contact = () => {
             <Link
               href="https://www.linkedin.com/in/mphill05"
               target="_blank"
-              rel="nofollow"
+              aria-label="LinkedIn Profile"
             >
               Linkedin
             </Link>
@@ -28,7 +28,7 @@ export const Contact = () => {
           </p>
         </Reveal>
         <Reveal width="100%">
-          <Link href="mailto:mphill05@gmail.com">
+          <Link href="mailto:mphill05@gmail.com" aria-label="Email">
             <div className={styles.contactEmail}>
               <AiFillMail size="2.4rem" />
               <span>mphill05@gmail.com</span>

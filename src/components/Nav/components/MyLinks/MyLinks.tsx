@@ -14,7 +14,7 @@ export const MyLinks = () => {
         <Link
           href="https://www.linkedin.com/in/mphill05"
           target="_blank"
-          rel="nofollow"
+          aria-label="LinkedIn Profile"
         >
           <AiFillLinkedin size="2.4rem" />
         </Link>
@@ -28,7 +28,7 @@ export const MyLinks = () => {
         <Link
           href="https://www.github.com/mphill05"
           target="_blank"
-          rel="nofollow"
+          aria-label="GitHub Profile"
         >
           <AiFillGithub size="2.4rem" />
         </Link>
