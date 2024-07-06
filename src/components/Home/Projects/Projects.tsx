@@ -63,7 +63,7 @@ const projects = [
   },
   {
     title: 'Commercial EVs',
-    imgSrc: '/project-imgs/commercialEVs.png',
+    imgSrc: '/project-imgs/commercialevs.png',
     code: '',
     projectLink: 'https://commercialevs.com',
     tech: ['Next.js', 'React Bootstrap', 'JavaScript', 'Jira'],
