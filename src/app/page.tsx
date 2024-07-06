@@ -40,6 +40,8 @@ export default function Home() {
           content="Mark Phillips - A passionate Software Developer."
         />
         <meta property="twitter:image" content={faviconUrl} />
+
+        <link rel="preload" href="../constants/globals.scss" as="style" />
       </Head>
       <HomeComponent />
     </>
