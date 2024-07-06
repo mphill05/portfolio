@@ -14,12 +14,41 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: 'Ledelsea',
+    position: 'Software Engineer',
+    time: 'December 2023 - Present',
+    location: 'Minneapolis, MN',
+    description:
+      '      As a Software Engineer at Ledelsea, I assist in designing and developing a variety of web applications using React and Next.js with TypeScript. I lead development efforts in an AI-driven, data-centric SaaS environment, delivering end-to-end solutions from architecture to execution. I also oversee content management for React applications utilizing Kontent.ai and implement robust authentication services with JWT and CORS for secure token passing. I contribute to API development with Python and FastAPI, manage multiple databases, and collaborate with cross-functional teams to improve software and guide platform integration.',
+    tech: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'Redux',
+      'Material UI',
+      'Bootstrap',
+      'Python',
+      'JWT',
+      'GCP',
+      'Kubernetes',
+      'Docker',
+      'CI/CD',
+      'DataDog',
+      'Google Analytics',
+      'Tag Manager',
+      'Git',
+      'GitHub Actions',
+      'ClickUp',
+      'Jira',
+    ],
+  },
+  {
     title: 'Mastery Logistics Systems',
     position: 'Software Engineer',
     time: 'March 2022 – June 2023',
     location: 'Remote',
     description:
-      'As a Software Engineer at Mastery, I honed my skills in building high-performance, scalable applications tailored for the logistics industry. My role involved close collaboration with UI/UX and product teams to meet tight deadlines, ensuring code quality through meticulous reviews and testing with tools like Jest and Cypress.',
+      'At Mastery Logistics Systems, I honed my skills in building high-performance, scalable applications for the logistics industry. My responsibilities included writing clean, maintainable TypeScript code with React, streamlining data retrieval with GraphQL APIs, and conducting unit and integration testing with Jest and Cypress. I collaborated with product managers, UI/UX teams, and engineers to deliver new features on time, ensuring customer satisfaction.',
     tech: [
       'React',
       'TypeScript',
@@ -27,8 +56,13 @@ const experience = [
       'Jest',
       'Cypress',
       'Azure',
+      'Kubernetes',
+      'Sentry',
+      'New Relic',
+      'Docker',
+      'SQL',
       'Git',
-      'GitHub',
+      'GitHub Actions',
     ],
   },
   {
@@ -37,24 +71,17 @@ const experience = [
     time: 'August 2020 – May 2022',
     location: 'Remote',
     description:
-      "During my tenure as a Software Engineer at PhillStack, I crafted cutting-edge web applications from the ground up, enhancing user experiences with React, Angular, and TypeScript. My direct engagement with clients and active role in marketing our services were pivotal in driving the company's growth and reducing time-to-market.",
+      'During my tenure at PhillStack, I developed and deployed high-performance web applications using React and TypeScript. I utilized AWS services like S3, Route 53, CloudFront, and RDS for secure, scalable storage and content delivery. I also optimized site speed and functionality with Node.js and built RESTful APIs, significantly improving site performance and user engagement.',
     tech: [
       'React',
-      'Angular',
       'TypeScript',
-      'Git',
       'Node.js',
       'Express',
+      'MongoDB',
       'AWS',
+      'Google Analytics',
+      'Google Tag Manager',
+      'Agile Methodologies',
     ],
-  },
-  {
-    title: 'Boombox Cartel',
-    position: 'Web Developer',
-    time: 'June 2017 – August 2020',
-    location: 'Remote',
-    description:
-      "I led the strategic website overhaul at Boombox Cartel, working closely with the team to reimagine the web app design. This redesign significantly improved site retention and user engagement, contributing to a marked increase in the artist's fan following and social media presence.",
-    tech: ['Angular', 'TypeScript', 'SASS', 'RESTful Web Services'],
   },
 ];

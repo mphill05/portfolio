@@ -18,61 +18,6 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: 'Production App',
-    imgSrc: '/project-imgs/productionSite.png',
-    code: 'https://github.com/mphill05/production-app',
-    projectLink: '',
-    tech: [
-      'Next.js',
-      'TypeScript',
-      'Sass',
-      'Node.js',
-      'Express',
-      'CircleCI',
-      'AWS',
-      'Jest',
-      'Cypress',
-      'NextAuth',
-      'MongoDB',
-      'Framer Motion',
-      'Jira',
-    ],
-    description: 'Full Stack app built with Next.js.',
-    modalContent: (
-      <>
-        <p>
-          <strong className={styles.cso}>Challenge</strong>: I&apos;ve struggled
-          to find a good site to store my music production projects, but beyond
-          that something that felt like a one stop shop for music producers. I
-          wanted to create a site where I could store my projects, write notes
-          and have them populate a Trello style board to keep myself organized.
-          I feel like producers are missing a good way to connect as well with
-          message boards, groups and a feed that isn&apos;t algorithm heavy much
-          like soundcloud in the past.
-        </p>
-        <p>
-          <strong className={styles.cso}>Solution</strong>: I decided to take on
-          a project in multiple steps that would solve all of those problems.
-          There are many sites from the past that really shaped culture because
-          they revolved around community and creativity, somewhere along the way
-          that all got lost to algorithms and advertisements. I&apos;m hoping to
-          fix some of that with this site.
-        </p>
-        <p>
-          <strong className={styles.cso}>Outcome</strong>: I&apos;m currently
-          planning the application and getting very bare scaffolding in place
-          and exploring options as to what will make this as cheap as possible
-          while still being able to scale and be stable. I plan to host the
-          application on AWS and utilize Kubernetes to scale as necessary.
-          It&apos;s a big undertaking so I want to make sure I build things
-          right for the community and artists.
-          <br />
-          More updates to come!
-        </p>
-      </>
-    ),
-  },
-  {
     title: 'Music App',
     imgSrc: '/project-imgs/musicapp.png',
     code: 'https://github.com/mphill05/music-app',
@@ -117,34 +62,77 @@ const projects = [
     ),
   },
   {
-    title: 'Merchbox',
-    imgSrc: '/project-imgs/merchbox.png',
-    code: 'https://github.com/mphill05/merchbox',
-    projectLink: 'https://merchboxapp.vercel.app/',
-    tech: ['Next.js', 'Sass', 'TypeScript', 'Framer Motion', 'Jira'],
-    description: 'Merchbox: Next.js landing page.',
+    title: 'Commercial EVs',
+    imgSrc: '/project-imgs/commercialEVs.png',
+    code: '',
+    projectLink: 'https://commercialevs.com',
+    tech: ['Next.js', 'React Bootstrap', 'JavaScript', 'Jira'],
+    description: 'An e-commerce platform for electric vehicles',
     modalContent: (
       <>
         <p>
-          <strong className={styles.cso}>Challenge</strong>: My client faced
-          limitations with their existing Wix-based storefront, struggling with
-          inflexible design options, sluggish animations, and poor
-          responsiveness across devices.
+          <strong className={styles.cso}>Challenge</strong>: The client required
+          a landing page for their electric vehicle store that would enhance
+          their online presence. The primary objective was to create a visually
+          appealing, user-friendly website that could be easily navigated and
+          regularly updated with new and used inventory.
         </p>
         <p>
-          <strong className={styles.cso}>Solution</strong>: I engineered a
-          custom Next.js application, optimized for performance and flexibility.
-          By implementing Framer Motion, we introduced fluid, eye-catching
-          animations, while Sass was utilized for responsive styling. Nodemailer
-          integration streamlined the email communication process, enhancing the
-          overall user experience.
+          <strong className={styles.cso}>Solution</strong>: To improve the user
+          experience, I implemented a modern, responsive design. Collaborating
+          closely with design teams, we minimized clutter and ensured visual
+          appeal. Additionally, I led the main development team in integrating
+          new features and design updates to maintain a fresh and engaging site.
         </p>
         <p>
-          <strong className={styles.cso}>Outcome</strong>: The new Merchbox site
-          boasts a remarkable performance leap, with load times slashed and a
-          responsive design that adapts seamlessly to all devices. I&apos;ve
-          locked in a client-pleasing aesthetic, boosted SEO with strategic meta
-          tags, and enhanced visibility through cross-site referencing.
+          <strong className={styles.cso}>Outcome</strong>: The resulting website
+          is both modern and user-friendly, offering a seamless navigation
+          experience. It integrates smoothly with the existing CMS, allowing for
+          consistent updates and a uniform user experience across all devices.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: 'Shaed.ai',
+    imgSrc: '/project-imgs/shaed.png',
+    code: '',
+    projectLink: 'https://shaed.ai',
+    tech: [
+      'React.js',
+      'Material UI',
+      'TypeScript',
+      'JavaScript',
+      'SQL',
+      'Google Cloud Platform',
+      'Github Actions',
+      'Clickup',
+    ],
+    description: 'A comprehensive React-based client portal.',
+    modalContent: (
+      <>
+        <p>
+          <strong className={styles.cso}>Challenge</strong>: My client needed a
+          robust website to serve as a central portal for accessing multiple
+          applications. The primary challenge was to implement seamless
+          authentication across all integrated applications with a single
+          sign-on (SSO) approach.
+        </p>
+        <p>
+          <strong className={styles.cso}>Solution</strong>: We developed a
+          React.js application functioning as a landing page, providing a
+          unified entry point for all client applications. The solution included
+          secure authentication and seamless navigation across various products.
+          Collaborating with another engineer and an external team, we designed
+          an efficient system to authenticate users and facilitate smooth
+          transitions between different applications.
+        </p>
+        <p>
+          <strong className={styles.cso}>Outcome</strong>: The portal now
+          seamlessly communicates with multiple applications, offering users a
+          smooth authentication experience. The integrated database effectively
+          tracks user activity, ensuring secure access based on predefined
+          parameters, thus enhancing the overall user experience.
         </p>
       </>
     ),
@@ -158,7 +146,7 @@ const projects = [
       'React',
       'Sass',
       'Bootstrap',
-      'JavaScript',
+      'TypeScript',
       'Node.js',
       'Express',
       'AWS',
@@ -198,7 +186,15 @@ const projects = [
     imgSrc: '/project-imgs/bmbxCtrlSiteImg.webp',
     code: '',
     projectLink: 'http://boomboxcartel.com',
-    tech: ['Angular', 'Sass', 'Bootstrap', 'HTML', 'CSS'],
+    tech: [
+      'Angular',
+      'Sass',
+      'Bootstrap',
+      'HTML',
+      'CSS',
+      'Mailchimp',
+      'Bands in Town',
+    ],
     description: 'The official website for Boombox Cartel',
     modalContent: (
       <>

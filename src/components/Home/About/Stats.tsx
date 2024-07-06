@@ -19,13 +19,22 @@ const stats = [
     tech: 'Node.js',
   },
   {
+    tech: 'Python',
+  },
+  {
     tech: 'Express',
+  },
+  {
+    tech: 'SQL',
   },
   {
     tech: 'GraphQL',
   },
   {
-    tech: 'SCSS',
+    tech: 'REST',
+  },
+  {
+    tech: 'SASS',
   },
   {
     tech: 'Tailwind',
@@ -34,13 +43,34 @@ const stats = [
     tech: 'HTML',
   },
   {
+    tech: 'CSS',
+  },
+  {
     tech: 'MongoDB',
+  },
+  {
+    tech: 'Docker',
+  },
+  {
+    tech: 'Postman',
   },
   {
     tech: 'Cypress',
   },
   {
     tech: 'Jest',
+  },
+  {
+    tech: 'Vitest',
+  },
+  {
+    tech: 'AWS',
+  },
+  {
+    tech: 'GCP',
+  },
+  {
+    tech: 'Azure',
   },
   {
     tech: 'Docker',
@@ -51,17 +81,14 @@ const stats = [
   {
     tech: 'Jira',
   },
-];
-
-const learning = [
   {
-    tech: 'AWS Dev Associate Cert',
+    tech: 'Google Analytics',
   },
   {
-    tech: 'PostgreSQL',
+    tech: 'Tag Manager',
   },
   {
-    tech: 'Figma',
+    tech: 'Clickup',
   },
 ];
 
@@ -85,7 +112,7 @@ export const Stats = () => {
           </div>
         </div>
       </Reveal>
-      <Reveal>
+      {/* <Reveal>
         <div className={styles.statColumn}>
           <h4>
             <AiFillSmile size="2.4rem" color="var(--brand)" />
@@ -101,7 +128,7 @@ export const Stats = () => {
             })}
           </div>
         </div>
-      </Reveal>
+      </Reveal> */}
     </div>
   );
 };
